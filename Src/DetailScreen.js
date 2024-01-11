@@ -22,7 +22,7 @@ const DetailScreen = ({ route }) => {
   return (
     <ScrollView style={styles.container}>
       <Image
-        source={{ uri: item.thumbnail }}
+        source={{ uri: item.image }}
         style={styles.itemImage}
       />
       <View style={styles.detailsContainer}>
